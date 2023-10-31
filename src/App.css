@@ -1,0 +1,50 @@
+.main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.passport-info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.connect-button {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}
+
+.user-info-box {
+  width: 400px;
+  height: 400px;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  text-align: center;
+  /* max-width: 300px;
+  margin-top: 20px; */
+}
+
+.user-info-box p {
+  font-size: 20px;
+  margin: 10px 0;
+}
